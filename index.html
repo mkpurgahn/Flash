@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SRE Interview Flashcards - HRT</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>SRE Interview Prep - HRT</h1>
+            <div class="progress">
+                <span id="current-card">1</span> / <span id="total-cards">0</span>
+            </div>
+        </div>
+        
+        <div class="flashcard-container">
+            <div class="flashcard" id="flashcard">
+                <div class="card-face card-front">
+                    <div class="card-content">
+                        <h3>Question</h3>
+                        <p id="question-text">Loading...</p>
+                    </div>
+                </div>
+                <div class="card-face card-back">
+                    <div class="card-content">
+                        <h3>Answer</h3>
+                        <div id="answer-text">Loading...</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="controls">
+            <button id="prev-btn" class="btn">← Previous</button>
+            <button id="flip-btn" class="btn btn-primary">Flip Card</button>
+            <button id="next-btn" class="btn">Next →</button>
+        </div>
+        
+        <div class="shortcuts">
+            <p>Keyboard shortcuts: Space (flip) | ← → (navigate)</p>
+        </div>
+    </div>
+    
+    <script src="flashcards-data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
